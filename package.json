@@ -1,0 +1,9 @@
+{
+  "name": "render-test",
+  "version": "1.0.0",
+  "description": "A simple app to test the Render Docker Hosting Service",
+  "main": "index.js",
+  "repository": "https://github.com/stefan-gherman/render-test.git",
+  "author": "Stefan Gherman <scgheman@gmail.com>",
+  "license": "MIT"
+}
