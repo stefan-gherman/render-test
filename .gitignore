@@ -108,3 +108,6 @@ dist
 
 # Node Modules
 .ndode_modules/
+
+# Sql Lite Database
+*.sqlite
