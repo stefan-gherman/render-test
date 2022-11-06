@@ -18,7 +18,6 @@ app.route('/', )
                 const cityData = req.body.data;
                 let cities = await db.get("Data.cities");
                 cities.map((city) => city.toLowerCase());
-                console.log(cities);
                 !cities.includes(cityData) ? await db.push("Data.cities", cityData) : null
                 res.status(201).json({"status": "created"});
             } catch (error) {
