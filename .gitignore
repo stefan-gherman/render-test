@@ -102,3 +102,12 @@ dist
 
 # TernJS port file
 .tern-port
+
+# JetBrains
+.idea/
+
+# Node Modules
+.ndode_modules/
+
+# Sql Lite Database
+*.sqlite
