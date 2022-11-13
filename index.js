@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express();
-const port = 39342;
+const port = 8080;
 
 const { QuickDB } = require('quick.db');
 const db = new QuickDB(); // using default driver
